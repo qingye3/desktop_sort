@@ -1,0 +1,25 @@
+desktop: "~/Desktop"
+rules:
+  - name: Images
+    patterns:
+      - "*.png"
+      - "*.jpg"
+      - "*.jpeg"
+      - "*.crw"
+      - "*.pcd"
+      - "*.tif"
+      - "*.tiff"
+      - "*.gif"
+  - name: Documents
+    patterns:
+      - "*.pdf"
+      - "*.docx"
+      - "*.doc"
+      - "*.xls"
+      - "*.xlsx"
+      - "*.ppt"
+      - "*.pptx"
+      - "*.txt"
+  - name: Misc
+    patterns:
+      - "*"
